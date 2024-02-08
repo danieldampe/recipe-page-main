@@ -1,0 +1,11 @@
+/* 
+// *** *** *** Main Image *** *** ***
+*/
+.main-image {
+    width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 1000px) {
+    .main-image { border-radius: 10px; }
+}

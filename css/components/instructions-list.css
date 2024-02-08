@@ -1,0 +1,21 @@
+/* 
+// *** *** *** Instructions List *** *** ***
+*/
+.instructions-list__ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding-left: 1.5rem;
+}
+
+/* 
+// *** *** *** Item *** *** ***
+*/
+.instructions-list-item::marker,
+.instructions-list-item-p__span { 
+    font-weight: var(--font-weight-semi-bold); 
+}
+
+.instructions-list-item::marker { color: var(--color-dark-raspberry); }
+
+.instructions-list-item__p { margin-left: 1.1rem; }

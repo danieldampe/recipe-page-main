@@ -1,0 +1,30 @@
+/* 
+// *** *** *** Information Table *** *** ***
+*/
+.information-table__content { margin-bottom: 1rem; }
+
+.information-table__table {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 
+// *** *** *** Row *** *** ***
+*/
+.information-table-row {
+    display: flex;
+    padding: 0.8rem 1.8rem;
+    border-bottom: 1px solid var(--color-light-grey);
+}
+
+.information-table-row:last-child { border-bottom: none;}
+
+/* 
+// *** *** *** Item *** *** ***
+*/
+.information-table-item { flex-basis: 50%; }
+
+.information-table-item:nth-child(2n) {  
+    font-weight: var(--font-weight-semi-bold);
+    color: var(--color-dark-raspberry);
+}

@@ -1,0 +1,27 @@
+/* 
+// *** *** *** Details Box *** *** ***
+*/
+.details-box {
+    padding: 1.5rem;
+    border-radius: 15px;
+    background-color: var(--color-rose-white);
+}
+
+.details-box__title {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-dark-raspberry);
+}
+
+.details-box__ul { 
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-left: 0.5rem; 
+}
+
+/* 
+// *** *** *** Item *** *** ***
+*/
+.details-box-item-p__span { font-weight: var(--font-weight-bold); }
